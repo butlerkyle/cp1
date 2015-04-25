@@ -1,5 +1,5 @@
 ---
-Hello! The analysis file "run_analysi.R" does the following: 
+Hello! The analysis file "run_analysis.R" does the following: 
 
 Reads in all the individual files
 
