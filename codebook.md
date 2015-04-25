@@ -1,9 +1,11 @@
 Feature Selection 
 =================
 
-The features in the new summary data set are simply the mean for each variable included in the data set by subject and activity (e.g. subject 1, walking). For more details, see the original feature information below. 
+The features in the new summary data set are simply the mean for each variable included in the data set by subject and activity (e.g. subject 1, walking). 
 
 For details on transformations taken to achieve this new data set, see the ReadMe file or R file comments, which are pretty detailed!
+
+The original features data is below
 ==================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
