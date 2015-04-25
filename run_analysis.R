@@ -38,12 +38,7 @@ colnames(finalsubset)[2] <- "Subject"
 
 ## make the second tidy data set 
 finaltable <- ddply(finalsubset, .(ActivityName, Subject), numcolwise(mean))
-##actmean[2] <- NA
-##submean <- ddply(finalsubset, .(Subject), numcolwise(mean))
-##ActivityName <- vector(mode = "character", length = nrow(submean))
-##ActivityName <- NA
-##submean <- cbind(ActivityName, submean)
-##finaltable <- rbind(actmean, submean)
+
 
 ## write a file 
 write.table(finaltable, file = "finaltable.txt", sep = ",", row.names = F)
